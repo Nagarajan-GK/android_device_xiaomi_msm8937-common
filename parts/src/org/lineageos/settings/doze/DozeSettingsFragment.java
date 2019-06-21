@@ -122,7 +122,6 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         mHandler.post(() -> DozeUtils.checkDozeService(getActivity()));
-
         return true;
     }
 
