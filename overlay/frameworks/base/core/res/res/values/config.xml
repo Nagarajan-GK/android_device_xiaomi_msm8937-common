@@ -545,9 +545,6 @@
     <!-- Disable button backlight settings. -->
     <integer name="config_buttonBrightnessSettingDefault">0</integer>
 
-    <!-- Whether device ignores the RSSNR signal implementation -->
-    <bool name="config_ignoreRssnrSignalLevel">true</bool>
-
     <!-- Does the notification LED support multiple colors?
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorNotificationLed">true</bool>
